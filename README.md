@@ -2,6 +2,9 @@
 
 Purpose:
 
+Learn what it means to program or code to an interface and practice go.
+
+For that translate php in [this article](https://blog.oussama-mater.tech/code-to-an-interface/) to go
 
 ## example usage
 
