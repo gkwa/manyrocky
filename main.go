@@ -6,11 +6,14 @@ import (
 )
 
 func main() {
-	if len(os.Args) > 1 && (os.Args[1] == "-version" || os.Args[1] == "version" || os.Args[1] == "-v") {
-		buildInfo := GetBuildInfo()
-		fmt.Println(buildInfo)
-		os.Exit(0)
-	}
+	openAIAPIKey := os.Getenv("OPENAI_API_KEY")
+	openAI := NewOpenAI(openAIAPIKey)
+	randomAI := &RandomAI{}
 
-	fmt.Println("Hello, World!")
+	bot := NewChatBot(openAI)
+
+	fmt.Println(bot.Ask("How much is Product X?"))
+
+	bot.SetClient(randomAI)
+	fmt.Println(bot.Ask("How much is Product X?"))
 }
