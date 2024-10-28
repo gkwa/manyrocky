@@ -5,7 +5,7 @@ go 1.22.4
 require (
 	github.com/go-git/go-git/v5 v5.12.0
 	github.com/magefile/mage v1.15.0
-	github.com/sashabaranov/go-openai v1.32.3
+	github.com/sashabaranov/go-openai v1.32.4
 )
 
 require (
