@@ -7,7 +7,7 @@
       "automerge": true,
       "automergeType": "branch",
       "automergeStrategy": "merge-commit",
-      "ingoreTests": true
+      "ignoreTests": true
     }
   ],
   "platformAutomerge": true
