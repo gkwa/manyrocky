@@ -6,7 +6,7 @@
       "matchDepTypes": ["*"],
       "automerge": true,
       "automergeType": "branch",
-      "automergeStrategy": "fast-forward",
+      "automergeStrategy": "merge-commit",
       "ignoreTests": true
     }
   ],
