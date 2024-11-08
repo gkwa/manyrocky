@@ -4,9 +4,9 @@
   "packageRules": [
     {
       "automerge": true,
-      "automergeStrategy": "fast-forward",
-      "automergeType": "branch",
-      "matchDepTypes": ["*"]
+      "automergeStrategy": "merge-commit",
+      "matchDepTypes": ["*"],
+      "recreateWhen": "always"
     }
   ],
   "platformAutomerge": true,
