@@ -4,9 +4,8 @@
   "packageRules": [
     {
       "automerge": true,
-      "automergeStrategy": "merge-commit",
+      "automergeStrategy": "fast-forward",
       "automergeType": "branch",
-      "ignoreTests": true,
       "matchDepTypes": ["*"]
     }
   ],
