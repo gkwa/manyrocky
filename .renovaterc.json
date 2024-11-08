@@ -1,17 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:best-practices"
-  ],
+  "extends": ["config:best-practices"],
   "packageRules": [
     {
-      "matchDepTypes": [
-        "*"
-      ],
+      "matchDepTypes": ["*"],
       "automerge": true,
       "automergeType": "branch",
-      "automergeStrategy": "fast-forward",
-      "ignoreTests": true
+      "automergeStrategy": "merge-commit",
+      "ingoreTests": true
     }
   ],
   "platformAutomerge": true
