@@ -7,7 +7,7 @@ toolchain go1.24.1
 require (
 	github.com/go-git/go-git/v5 v5.14.0
 	github.com/magefile/mage v1.15.0
-	github.com/sashabaranov/go-openai v1.38.0
+	github.com/sashabaranov/go-openai v1.38.1
 )
 
 require (
