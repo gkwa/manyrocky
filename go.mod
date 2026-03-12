@@ -6,7 +6,7 @@ toolchain go1.26.1
 
 require (
 	github.com/go-git/go-git/v5 v5.17.0
-	github.com/magefile/mage v1.16.0
+	github.com/magefile/mage v1.16.1
 	github.com/sashabaranov/go-openai v1.41.2
 )
 
